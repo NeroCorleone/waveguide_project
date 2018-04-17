@@ -1,0 +1,7 @@
+13. April
+
+* Datenanalyse:
+** Offset in B? Pattern ist nicht ganz symmetrisch um 0 --> Offset über Fit um B=0 herum bestimmen anhand Maximum der Ic Kurve
+** Manche Minima werden nicht richtig gefunden, führen dann zu höherem IcWert --> order in find_peaks(), die Minima in abs(derivative(current)) findet, verringern? --> Unterschied Minima/Wendepunkte!
+** Weitere Methode zur Ic Extraction: Schaue I-V-Kurve an. Definiere einen V-threshold, bei dem Ic gemessen wird. (Siehe Skizze im Block)
+
